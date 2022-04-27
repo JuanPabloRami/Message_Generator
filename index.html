@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de Mensajes</title>
+</head>
+<body>
+
+    <!-- <header>
+        <h1>Bienvenido, </h1>
+        <h1 id = "InitialWelcome"></h1>
+    </header> -->
+
+    <section>
+        <div class="bienvenida">
+            <h1>Bienvenido</h1>
+            <div id="initialWelcomeContainer">
+                <h1 id = "WelcomeOutput"></h1>
+            </div>
+        </div>
+        <div class="formulario">
+            <label for="InputName">Ingresa tu nombre</label>
+            <input  id="InputName" type="text">
+            <label for="InputMessage">Ingresa tu mensaje (Max 200 caracteres)</label>
+            <textarea id="InputMessage" cols="29" rows="10" maxlength="200"></textarea>
+            <div class="counterContainer">
+                <p>Caracteres disponibles:    </p>
+                <p id = "CounterOutput">200</p>
+            </div>
+            <button id = "ButtonMessage" type="submit">Publica tu comentario</button>
+            </div>
+        </div>
+        <div class="messageContainer">
+            <h3 id="OutputMessageTitle"></h3>
+            <p id="OutputMessage"></p>
+        </div>
+    </section>
+
+    
+
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
